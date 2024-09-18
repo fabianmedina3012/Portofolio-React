@@ -1,10 +1,7 @@
 import React from "react";
-//import myResume from "../../assets/files/Lindsey_Martin_Resume_2023.pdf";
-import { DiAptana } from "react-icons/di";
-import { DiDatabase } from "react-icons/di";
-import { DiCodeBadge } from "react-icons/di";
-
-
+import myResume from "../assets/resume/fabianmedina.pdf";
+import { BsCloudDownload } from "react-icons/bs";
+import { DiAptana, DiDatabase, DiCss3, DiBootstrap, DiHtml5, DiJavascript, DiMaterializecss, DiMongodb, DiNodejs, DiReact, DiCodeBadge } from "react-icons/di";
 
 function Resume() {
   return (
@@ -16,22 +13,24 @@ function Resume() {
         <div className="flex-row">
           <div className="download-info">
             <div className="download-text">
-              {/* <a href={} className="download-logo" download>
+              <a href={myResume} className="download-logo" download>
                 <BsCloudDownload />
-              </a> */}
+              </a>
               <p>
-                Feel free to check the list of Developer
-                Proficiencies
+                Feel free to check the list of Developer Proficiencies
               </p>
             </div>
           </div>
         </div>
-        
+        <marquee width="100%" id="bn">
+          <DiNodejs /> <DiReact /> <DiMongodb /> <DiCss3 /><DiBootstrap /> <DiHtml5 /> <DiJavascript /> <DiMaterializecss />
+        </marquee>
       </section>
+
       <section id="home-page-body" className="resume-body">
         <div className="article column1">
-          <p className="column-title">Font-End Tech</p>
-          <p className="column-text">
+          <div className="column-title">Font-End Tech</div>
+          <div className="column-text">
             <ul>
               <li className="logo">
                 <DiCodeBadge />
@@ -42,11 +41,11 @@ function Resume() {
               <li>APIs</li>
               <li>CSS Framework</li>
             </ul>
-          </p>
+          </div>
         </div>
         <div className="article column2">
-          <p className="column-title">Back-End Tech</p>
-          <p className="column-text">
+          <div className="column-title">Back-End Tech</div>
+          <div className="column-text">
             <ul>
               <li className="logo">
                 <DiAptana />
@@ -56,14 +55,14 @@ function Resume() {
               <li>Express.js</li>
               <li>SQL</li>
               <li>Sequelize</li>
-              <li>Object-Relational Mapping(ORM)</li>
+              <li>Object-Relational Mapping (ORM)</li>
               <li>Model-View-Controller (MVC)</li>
             </ul>
-          </p>
+          </div>
         </div>
         <div className="article column3">
-          <p className="column-title">Performance Tech</p>
-          <p className="column-text">
+          <div className="column-title">Performance Tech</div>
+          <div className="column-text">
             <ul>
               <li className="logo">
                 <DiDatabase />
@@ -76,7 +75,7 @@ function Resume() {
               <li>MERN</li>
               <li>State</li>
             </ul>
-          </p>
+          </div>
         </div>
       </section>
     </div>

@@ -5,21 +5,19 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 function Footer() {
   return (
     <footer>
-      <h2>Made by fabianmedina3012</h2>
-      <p>
+      <h2>Made by fabianmedina</h2>
         <ul>
           <a href="https://github.com/fabianmedina3012">
             <li className="logo">
               <VscGithubAlt />
             </li>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/fabian-medina-2a9247213/">
             <li className="logo">
               <AiOutlineLinkedin />
             </li>
           </a>
         </ul>
-      </p>
     </footer>
   );
 }
