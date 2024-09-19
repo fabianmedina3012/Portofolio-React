@@ -12,8 +12,8 @@
   - [Questions](#questions)
   
   ## Installation
-  -npm install
-  -npm start
+  - npm install
+  - npm run dev
   
   ## Usage
   it is a portofolio with react for show many work i did 
@@ -23,7 +23,7 @@
   This project is licensed under the [License: MIT](https://opensource.org/licenses/MIT).
   
   ## Screenshot of the project
-  N/A
+  ![portofolio react](https://github.com/user-attachments/assets/b225557a-5b2e-48d3-ba88-30edadfd1877)
   
   ## Questions
   For questions about the project, please contact [@fabianmedina3012](https://github.com/fabianmedina3012) or fabiancermeno@gmail.com.
